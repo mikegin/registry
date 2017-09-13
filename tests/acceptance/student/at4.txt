@@ -1,0 +1,10 @@
+--at1.txt: normal scenario: add persons, they marry
+put(1,"Joe",[15,02,1990])
+put(2,"Pam",[31,03,1991])
+marry(1,2,[08, 12, 2010])
+put_alien(3,"Bob",[17,02,1995],"England")
+put_alien(4,"Kim",[31,03,1991],"France")
+marry(3,4,[05,07,2011])
+marry(3,4,[29,02,2019])
+marry(3,4,[29,02,2020])
+
